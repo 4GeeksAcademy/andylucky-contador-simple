@@ -9,3 +9,27 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.wrapper {
+    background: black;
+    padding-right: 6%;
+}
+.contador {
+    display: flex;
+        line-height: 28px;
+        height: 31px;
+        background: #101010;
+        width: 200px;
+        color: white;
+        justify-content: space-around;
+        margin: 17px auto 0 auto;
+
+}
+.iconRelog>img {
+    height: 22px;
+}
+
+.wrapper h3 {
+    text-align: center;
+    color: white;
+    padding-top: 6px;
+}
