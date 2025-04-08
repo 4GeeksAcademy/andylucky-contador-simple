@@ -51,6 +51,6 @@ if(counter6===1){
 clearInterval(elIntervalo)
 }
 
-}, 0,1);
+}, 1000);
 
 

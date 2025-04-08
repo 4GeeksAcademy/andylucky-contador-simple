@@ -10,26 +10,34 @@
 
 */
 .wrapper {
-    background: black;
     padding-right: 6%;
+    height: 94px;
 }
 .contador {
-    display: flex;
-        line-height: 28px;
-        height: 31px;
+        display: flex;
+        line-height: 39px;
+        height: 42px;
         background: #101010;
-        width: 200px;
+        width: 206px;
         color: white;
         justify-content: space-around;
         margin: 17px auto 0 auto;
 
 }
+.contador>.two, .contador>.one{
+    font-size: 2rem;
+    background: #272424;
+    padding: 0px 4px;
+}
+.iconRelog {
+    padding: 0 4px;
+}
 .iconRelog>img {
-    height: 22px;
+    height: 29px;
 }
 
 .wrapper h3 {
     text-align: center;
-    color: white;
+    color: black;
     padding-top: 6px;
 }
